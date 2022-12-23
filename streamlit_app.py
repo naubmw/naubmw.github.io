@@ -1,4 +1,18 @@
 import streamlit as st
- 
+from PIL import Image
+img = Image.open(r'C:\Users\Project\Documents\GitHub\naubmw.github.io\one.jpg')
+img2 = Image.open(r'C:\Users\Project\Documents\GitHub\naubmw.github.io\two.jpg')
+img3 = Image.open(r'C:\Users\Project\Documents\GitHub\naubmw.github.io\thre.jpg')
+img4 = Image.open(r'C:\Users\Project\Documents\GitHub\naubmw.github.io\four.jpg')
+img5 = Image.open(r'C:\Users\Project\Documents\GitHub\naubmw.github.io\five.jpg')
+img6 = Image.open(r'C:\Users\Project\Documents\GitHub\naubmw.github.io\six.jpg')
+print(type(img))
 st.title('Команда МФТИ Естественный интеллект')
-st.text('123')
+st.text('Наша команда')
+st.image(img, width = 200 )
+st.image(img2, width = 200 )
+st.image(img3, width = 200 )
+st.image(img4, width = 200 )
+st.image(img5, width = 200 )
+st.image(img6, width = 200 )
+st.text('Наша команда')
